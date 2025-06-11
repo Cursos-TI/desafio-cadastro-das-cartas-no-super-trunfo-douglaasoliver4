@@ -15,7 +15,7 @@ int main() {
     float area;
     float pib;
     int numeropontosturisticos;
-    char pais [20];
+    char estado [20];
 
     printf("Digite a população:\n");
     scanf("%d",&populacao);
@@ -29,8 +29,8 @@ int main() {
     printf("Digite o Número de pontos túristicos:\n");
     scanf("%d",&numeropontosturisticos);
 
-    printf("Digite o País:\n");
-    scanf("%s",pais);
+    printf("Digite o estado:\n");
+    scanf("%s",estado);
 
     printf("\n---Dados Cadastrados---\n");
     printf("População:%d\n",populacao);
